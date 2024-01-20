@@ -6,7 +6,12 @@ background-color: #0d0909;
 color: #fff;
 font-size: 18px;
 margin-bottom: 0;
-`; 
+bottom: 0;
+right: 0;
+left: 0;
+  z-index: 100;
+  position: fixed;
+`;
 
 export const FooterWrap = styled.div ` 
 padding: 16px 24px;
@@ -38,7 +43,7 @@ text-decoration: none;
 font-size: 16px; 
 display: flex; 
 align-items: center; 
-`; 
+`;
 
 export const SocialIcons = styled.div ` 
 display: flex;

@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import axios from "axios";
 import CharacterCard from "./Character";
 import { connect } from 'react-redux';
 import { setCharactersData } from '../../store/actions/charactersAction';
 
 function CharacterList(props) {
-    
+
   useEffect(() => {
     axios
       .get("https://rickandmortyapi.com/api/character/?page=1")

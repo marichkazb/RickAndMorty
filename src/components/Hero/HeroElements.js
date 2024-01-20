@@ -8,9 +8,8 @@ flex-direction: row;
 justify-content: center; 
 align-items: center; 
 padding: 50px 30px; 
-height: 557px; 
 display: flex;
-flex-direction: row; 
+flex-direction: row;
 `
 export const HeroImg = styled.img ` 
 display: flex;

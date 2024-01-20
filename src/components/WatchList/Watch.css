@@ -6,23 +6,22 @@
     'Lucida Sans', Arial, sans-serif;
     justify-content: center;
   align-items: center;
-    
+
 }
 
 .watchFormContainer {
 
-  height: 100vh;
   padding-left: 50px;
   padding-right: 50px;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: end;
   align-self: center;
-  z-index: 1; 
-  width: 100%; 
- 
+  z-index: 1;
+  width: 100%;
 
-  
+
+
 
 }
 
@@ -63,7 +62,7 @@ h1 {
   margin-bottom: 40px;
 }
 
-.watch-input { 
+.watch-input {
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
   border: 2px solid #101522;
@@ -71,7 +70,7 @@ h1 {
   width: 80%;
   background: transparent;
   color: #101522;
-  
+
 }
 
 
@@ -110,14 +109,14 @@ h1 {
     rgba(17, 122, 255, 1) 100%
   );
   padding: 10px 22px;
- 
+
 }
 
 .todo-container {
   display: flex;
   flex-direction: row;
   position: relative;
-  
+
 }
 
 .todo-row {
@@ -127,7 +126,7 @@ h1 {
   margin: 4px auto;
   color: #fff;
    width: 70%;
-  background: 
+  background:
     #101522;
 
   padding: 10px;
